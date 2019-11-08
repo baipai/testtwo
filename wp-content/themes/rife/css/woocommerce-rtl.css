@@ -1,0 +1,21 @@
+.woocommerce #respond input#submit.loading::after, .woocommerce a.button.loading::after, .woocommerce button.button.loading::after, .woocommerce input.button.loading::after {margin-left: 0;margin-right: 10px;}
+.woocommerce.widget_layered_nav_filters ul li {margin-right: 0;margin-left: 15px;float: right;}
+.woocommerce.widget_layered_nav_filters ul li.chosen a::before, .woocommerce.widget_layered_nav ul li.chosen a::before {margin-right: 0;margin-left: 10px;}
+.woocommerce.widget_layered_nav ul li.chosen {margin-left: 0;margin-right: -25px;}
+.woocommerce ul.product_list_widget li img {float: right;margin-right: 0;margin-left: 15px;}
+.woocommerce.widget_shopping_cart ul.product_list_widget .quantity, .woocommerce.widget_shopping_cart ul.product_list_widget .price, .woocommerce.widget_shopping_cart .cart_list li a.remove, .widget_shopping_cart_content div.variation > span {margin-left: 0;margin-right: 85px;}
+.woocommerce.widget_shopping_cart .cart_list li a.remove {padding-right: 0;padding-left: 15px;text-align: right;}
+.woocommerce a.remove span {right: auto;left: 0;}
+.woocommerce.widget_shopping_cart .total .amount {text-align: left;}
+.product-labels .ribbon {margin-right: 0;margin-left: 10px;}
+.woocommerce ul.products li.product .star-rating {right: auto;left: 30px;}
+.woocommerce div.product p.price ins, .woocommerce div.product span.price ins {margin-left: 0;margin-right: 5px;}
+.summary .yith-wcwl-add-to-wishlist .icon-heart {margin-right: 0;margin-left: 5px;}
+.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li {margin-right: 0;margin-left: 20px;}
+.woocommerce-page table.shop_attributes th {text-align: right;padding-right: 0;padding-left: 10px;}
+.woocommerce-page #reviews #comments ol.commentlist li img.avatar {left: auto;right: 0;}
+.woocommerce-page #reviews #comments ol.commentlist li .comment-text {margin-left: 0;margin-right: 125px;}
+.woocommerce-page #review_form #respond .comment-form-email {margin-left: 0;margin-right: 1.9%;}
+.woocommerce table.shop_table {text-align: right;}
+.woocommerce-page form.login .form-row label.inline {margin-left: 0;margin-right: 8px;}
+@media only screen and (max-width: 600px) {.woocommerce-page #reviews #comments ol.commentlist li .comment-text {margin-right: 55px;}}

@@ -1,0 +1,68 @@
+body {direction: rtl;unicode-bidi: embed;}
+#preloader {direction: ltr;}
+.top-menu span i + span, .top-menu a i + span {margin-left: 0;margin-right: 8px;}
+.top-menu i.sub-mark {right: auto;left: 40px;}
+.top-menu span em, .top-menu a em {margin-left: 0;margin-right: 8px;}
+.menu-item-language img.iclflag {margin-right: 0;margin-left: 7px;}
+.mega-menu > ul > li {float: right;}
+.mega-menu > ul > li.mm_new_row {clear: right;}
+.top-menu li.menu-parent-item > a, .top-menu li.menu-parent-item > span.title {padding-right: 40px;padding-left: 66px;}
+.top-menu .mega-menu > ul > li > span.title, .top-menu .mega-menu > ul > li > a, .top-menu .mega-menu ul li > a {padding-left: 0;padding-right: 40px;}
+.widget ul ul {margin: 0 25px 0 0;}
+.widget_nav_menu ul ul {margin: 0;}
+.widget_nav_menu li li a {padding-left: 0;padding-right: 10px;}
+.widget_nav_menu li li li a {padding-left: 0;padding-right: 20px;}
+.widget_about_posts .post-title {margin-right: 0;margin-left: 10px;}
+.widget_about_posts .entry-date i {margin-right: 0;margin-left: 5px;}
+#wp-calendar tfoot td#prev {text-align: left;}
+#wp-calendar tfoot td#next {text-align: right;}
+.widget_recent_albums .items {margin: -6% -6% 0 0;}
+.widget_recent_albums .item {margin: 6% 6% 0 0;}
+.widget_contact_info .with_icon {padding-left: 0;padding-right: 25px;}
+.widget_contact_info .with_icon > i {left: auto;right: 0;}
+.slider-ctrls .title {padding-left: 40px;padding-right: 0;}
+.widget-slider-ctrls {right: auto;left: 0;direction: ltr;}
+.layout-right .content-limiter, .layout-right_padding .content-limiter {direction: rtl;}
+.post-password-required .post-title .fa-lock {margin-right: 0;margin-left: 10px;}
+.comment-body, .author-inside {padding-right: 120px;padding-left: 0;}
+.comment .comment {margin-left: 0;margin-right: 30px;}
+img.avatar {left: auto;right: 0;}
+.comment-metadata .edit-link {margin-left: 0;margin-right: 1em;}
+.bypostauthor > .comment-body .comment-author .fn::after {margin-left: 0;margin-right: 15px;}
+#cancel-comment-reply-link {padding-left: 0;padding-right: 4px;border-right: 1px solid #000;border-left: none;}
+.comment-form-author, .comment-form-email, .comment-form-url {float: right;margin: 15px 2% 0 0;}
+.comment-form-author {margin-right: 0;}
+.comment-form-comment, .cptch_block {float: none;margin: 0;}
+.archive-item, .grid-master {float: right;}
+.post-format-link-icon {margin-left: 0;margin-right: 10px;}
+.slidesjs-pagination {margin-left: 0;margin-right: 30px;left: auto;right: 0;}
+.single-post .slidesjs-pagination, .page .slidesjs-pagination {margin-left: 0;margin-right: 60px;}
+.slidesjs-pagination li {float: right;}
+.slidesjs-pagination li a {float: right;}
+.load-more-button i {margin-left: 0;margin-right: 10px;}
+.load-more-button span.result-count {right: auto;left: 10px;}
+figure.archive-item h2, .album-categories, figure.archive-item .album-categories, figure.archive-item .excerpt {text-align: right;}
+figure.archive-item .album-categories, .bottom_group {left: auto;right: 40px;}
+figure .a2a_kit, figure.archive-item a.dot-irecommendthis {right: auto;left: 40px;}
+.widget_filter li i {margin-right: 0;margin-left: 7px;}
+.album-content .cpt-nav {margin-left: 0;margin-right: -10px;direction: ltr;text-align: right;}
+.meta-data em {margin-right: 0;margin-left: 2px;}
+.slide-caption h2.title, .slide-caption .description {direction: rtl;}
+.socials a {margin-right: 0;margin-left: 8px;}
+@media only screen and (max-width: 1024px) {.navigation-bar .top-menu ul li > a, .navigation-bar .top-menu ul li > span.title {padding-left: 0;padding-right: 55px;}
+	.navigation-bar .top-menu i.sub-mark {right: auto;left: 38px;}
+	.navigation-bar .top-menu li {text-align: right;}
+	.navigation-bar .mega-menu > ul > li {float: none;width: auto;}
+	.f-links {float: right;}
+	.foot-text {float: left;text-align: left;}}
+@media only screen and (max-width: 768px) {.f-links, .foot-text {float: none;text-align: center;}
+	.f-audio {margin-right: 0;margin-left: 5px;}
+	.f-links .socials {margin-left: 0;margin-right: 5px;}
+	#secondary .widget {float: right;}
+	#secondary .widget:nth-child(even) {margin-left: 0;margin-right: 3.9%;}
+	#secondary .widget:nth-child(odd) {clear: right;}}
+@media only screen and (max-width: 600px) {.single-post .slidesjs-pagination, .page .slidesjs-pagination {margin-right: 40px;}
+	#secondary .widget {width: auto;float: none;}
+	#secondary .widget:nth-child(even) {margin-right: 0;}
+	.comment-body, .author-inside {padding-right: 60px;}}
+@media only screen and (max-width: 400px) {.single-post .slidesjs-pagination, .page .slidesjs-pagination {margin-right: 20px;}}

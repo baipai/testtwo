@@ -1,0 +1,27 @@
+ui-widget
+ui-widget-content
+ui-widget-header
+ui-state-default {}
+.ui-state-disabled {cursor: default !important;}
+.ui-slider {position: relative;text-align: left;}
+.ui-slider .ui-slider-handle {position: absolute;z-index: 2;width: 1.2em;height: 1.2em;cursor: default;}
+.ui-slider .ui-slider-range {position: absolute;z-index: 1;font-size: .7em;display: block;border: 0;background-position: 0 0;}
+.ui-slider.ui-state-disabled .ui-slider-handle, .ui-slider.ui-state-disabled .ui-slider-range {filter: inherit;}
+.ui-slider-horizontal {height: .8em;}
+.ui-slider-horizontal .ui-slider-handle {top: -.3em;margin-left: -.6em;}
+.ui-slider-horizontal .ui-slider-range {top: 0;height: 100%;}
+.ui-slider-horizontal .ui-slider-range-min {left: 0;}
+.ui-slider-horizontal .ui-slider-range-max {right: 0;}
+.ui-slider.ui-widget {font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;font-size: 1.1em;}
+.ui-slider.ui-widget-content {border: 1px solid #ddd;background: #eee url("images/ui-bg_highlight-soft_100_eeeeee_1x100.png") 50% top repeat-x;color: #333;}
+.ui-slider.ui-widget-content a {color: #333;}
+.ui-slider .ui-widget-header {border: 1px solid #e78f08;background: #f6a828 url("images/ui-bg_gloss-wave_35_f6a828_500x100.png") 50% 50% repeat-x;color: #fff;font-weight: bold;}
+.ui-slider .ui-widget-header a {color: #fff;}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {border: 1px solid #ccc;background: #f6f6f6 url("images/ui-bg_glass_100_f6f6f6_1x400.png") 50% 50% repeat-x;font-weight: bold;color: #1c94c4;}
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {color: #1c94c4;text-decoration: none;}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {border: 1px solid #fbcb09;background: #fdf5ce url("images/ui-bg_glass_100_fdf5ce_1x400.png") 50% 50% repeat-x;font-weight: bold;color: #c77405;}
+.ui-state-hover a, .ui-state-hover a:hover, .ui-state-hover a:link, .ui-state-hover a:visited, .ui-state-focus a, .ui-state-focus a:hover, .ui-state-focus a:link, .ui-state-focus a:visited {color: #c77405;text-decoration: none;}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {border: 1px solid #fbd850;background: #fff url("images/ui-bg_glass_65_ffffff_1x400.png") 50% 50% repeat-x;font-weight: bold;color: #eb8f00;}
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {color: #eb8f00;text-decoration: none;}
+.ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled {opacity: .35;filter: Alpha(Opacity=35);background-image: none;}
+.ui-slider .ui-corner-all, .ui-slider.ui-corner-all {border-radius: 4px;}

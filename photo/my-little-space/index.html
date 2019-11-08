@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US"> 
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+
+<title>My Little Space – Photo – Bai</title>
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//s.w.org">
+
+
+<link rel="stylesheet" id="wp-block-library-css" href="https://baipai.github.io/testtwo/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="rs-plugin-settings-css" href="https://baipai.github.io/testtwo/wp-content/plugins/revslider/public/assets/css/settings.css" type="text/css" media="all">
+<style id="rs-plugin-settings-inline-css" type="text/css">
+#rs-demo-id {}
+</style>
+<link rel="stylesheet" id="lightGallery-css" href="https://baipai.github.io/testtwo/wp-content/themes/rife/js/light-gallery/css/lightgallery.css" type="text/css" media="all">
+<link rel="stylesheet" id="a13-font-awesome-css" href="https://baipai.github.io/testtwo/wp-content/themes/rife/css/font-awesome.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="icomoon-css" href="https://baipai.github.io/testtwo/wp-content/themes/rife/css/icomoon.css" type="text/css" media="all">
+<link rel="stylesheet" id="a13-main-style-css" href="https://baipai.github.io/testtwo/wp-content/themes/rife/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="a13-user-css-css" href="https://baipai.github.io/testtwo/wp-content/themes/rife/user/user.css" type="text/css" media="all">
+<style id="a13-user-css-inline-css" type="text/css">
+
+.single-album .bricks-frame{
+	max-width:1920px;
+}
+#only-album-items-here{
+	margin-right: -10px;
+}
+.album-content-on-the-right #only-album-items-here{
+	margin-right: calc(460px - 10px);
+}
+
+/* 6 columns */
+.single-album .bricks-columns-6 .archive-item,
+.single-album .bricks-columns-6 .grid-master{
+	width: -webkit-calc(16.6666666% - 10px);
+	width:         calc(16.6666666% - 10px);
+}
+.single-album .bricks-columns-6 .archive-item.w2{
+	width: -webkit-calc(33.3333333% - 10px);
+	width:         calc(33.3333333% - 10px);
+}
+.single-album .bricks-columns-6 .archive-item.w3{
+	width: -webkit-calc(50% - 10px);
+	width:         calc(50% - 10px);
+}
+.single-album .bricks-columns-6 .archive-item.w4{
+	width: -webkit-calc(66.6666666% - 10px);
+	width:         calc(66.6666666% - 10px);
+}
+.single-album .bricks-columns-6 .archive-item.w5{
+	width: -webkit-calc(83.3333333% - 10px);
+	width:         calc(83.3333333% - 10px);
+}
+
+/* 5 columns */
+.single-album .bricks-columns-5 .archive-item,
+.single-album .bricks-columns-5 .grid-master{
+	width: -webkit-calc(20% - 10px);
+	width:         calc(20% - 10px);
+}
+.single-album .bricks-columns-5 .archive-item.w2{
+	width: -webkit-calc(40% - 10px);
+	width:         calc(40% - 10px);
+}
+.single-album .bricks-columns-5 .archive-item.w3{
+	width: -webkit-calc(60% - 10px);
+	width:         calc(60% - 10px);
+}
+.single-album .bricks-columns-5 .archive-item.w4{
+	width: -webkit-calc(80% - 10px);
+	width:         calc(80% - 10px);
+}
+
+/* 4 columns */
+.single-album .bricks-columns-4 .archive-item,
+.single-album .bricks-columns-4 .grid-master{
+	width: -webkit-calc(25% - 10px);
+	width:         calc(25% - 10px);
+}
+.single-album .bricks-columns-4 .archive-item.w2{
+	width: -webkit-calc(50% - 10px);
+	width:         calc(50% - 10px);
+}
+.single-album .bricks-columns-4 .archive-item.w3{
+	width: -webkit-calc(75% - 10px);
+	width:         calc(75% - 10px);
+}
+
+/* 3 columns */
+.single-album .bricks-columns-3 .archive-item,
+.single-album .bricks-columns-3 .grid-master{
+	width: -webkit-calc(33.3333333% - 10px);
+	width:         calc(33.3333333% - 10px);
+}
+.single-album .bricks-columns-3 .archive-item.w2{
+	width: -webkit-calc(66.6666666% - 10px);
+	width:         calc(66.6666666% - 10px);
+}
+
+/* 2 columns */
+.single-album .bricks-columns-2 .archive-item,
+.single-album .bricks-columns-2 .grid-master{
+	width: -webkit-calc(50% - 10px);
+	width:         calc(50% - 10px);
+}
+
+/* 100% width bricks */
+.single-album .bricks-columns-1 .grid-master,
+.single-album .bricks-columns-1 .archive-item,
+.single-album .bricks-columns-2 .archive-item.w2,
+.single-album .bricks-columns-3 .archive-item.w3,
+.single-album .bricks-columns-4 .archive-item.w4,
+.single-album .bricks-columns-5 .archive-item.w5,
+.single-album .bricks-columns-6 .archive-item.w6{
+	width: -webkit-calc(100% - 10px);
+	width:         calc(100% - 10px);
+}
+
+
+/* responsive rules */
+@media only screen and (max-width: 1279px){
+	/* fluid layout columns */
+
+	/* 3 columns */
+	.single-album .layout-fluid .bricks-columns-6 .grid-master,
+	.single-album .layout-fluid .bricks-columns-6 .archive-item,
+	.single-album .layout-fluid .bricks-columns-6 .archive-item.w2,
+	.single-album .layout-fluid .bricks-columns-5 .grid-master,
+	.single-album .layout-fluid .bricks-columns-5 .archive-item,
+	.single-album .layout-fluid .bricks-columns-5 .archive-item.w2,
+	.single-album .layout-fluid .bricks-columns-4 .grid-master,
+	.single-album .layout-fluid .bricks-columns-4 .archive-item{
+		width: -webkit-calc(33.3333333% - 10px);
+		width:         calc(33.3333333% - 10px);
+	}
+	.single-album .layout-fluid .bricks-columns-6 .archive-item.w3,
+	.single-album .layout-fluid .bricks-columns-6 .archive-item.w4,
+	.single-album .layout-fluid .bricks-columns-5 .archive-item.w3,
+	.single-album .layout-fluid .bricks-columns-4 .archive-item.w2{
+		width: -webkit-calc(66.6666666% - 10px);
+		width:         calc(66.6666666% - 10px);
+	}
+	.single-album .layout-fluid .bricks-columns-6 .archive-item.w5,
+	.single-album .layout-fluid .bricks-columns-5 .archive-item.w4,
+	.single-album .layout-fluid .bricks-columns-4 .archive-item.w3{
+		width: -webkit-calc(100% - 10px);
+		width:         calc(100% - 10px);
+	}
+
+	/* 2 columns - when vertical header and sidebar are present */
+	.header-vertical.single-album .layout-fluid .album-content-on.bricks-columns-6 .grid-master,
+	.header-vertical.single-album .layout-fluid .album-content-on.bricks-columns-6 .archive-item,
+	.header-vertical.single-album .layout-fluid .album-content-on.bricks-columns-6 .archive-item.w2,
+	.header-vertical.single-album .layout-fluid .album-content-on.bricks-columns-6 .archive-item.w3,
+	.header-vertical.single-album .layout-fluid .album-content-on.bricks-columns-6 .archive-item.w4,
+	.header-vertical.single-album .layout-fluid .album-content-on.bricks-columns-5 .grid-master,
+	.header-vertical.single-album .layout-fluid .album-content-on.bricks-columns-5 .archive-item,
+	.header-vertical.single-album .layout-fluid .album-content-on.bricks-columns-5 .archive-item.w2,
+	.header-vertical.single-album .layout-fluid .album-content-on.bricks-columns-5 .archive-item.w3,
+	.header-vertical.single-album .layout-fluid .album-content-on.bricks-columns-4 .grid-master,
+	.header-vertical.single-album .layout-fluid .album-content-on.bricks-columns-4 .archive-item,
+	.header-vertical.single-album .layout-fluid .album-content-on.bricks-columns-4 .archive-item.w2,
+	.header-vertical.single-album .layout-fluid .album-content-on.bricks-columns-3 .grid-master,
+	.header-vertical.single-album .layout-fluid .album-content-on.bricks-columns-3 .archive-item{
+		width: -webkit-calc(50% - 10px);
+		width:         calc(50% - 10px);
+	}
+	.header-vertical.single-album .layout-fluid .album-content-on.bricks-columns-6 .archive-item.w5,
+	.header-vertical.single-album .layout-fluid .album-content-on.bricks-columns-5 .archive-item.w4,
+	.header-vertical.single-album .layout-fluid .album-content-on.bricks-columns-4 .archive-item.w3,
+	.header-vertical.single-album .layout-fluid .album-content-on.bricks-columns-3 .archive-item.w2{
+		width: -webkit-calc(100% - 10px);
+		width:         calc(100% - 10px);
+	}
+}
+
+@media only screen and (max-width: 800px){
+	/* fluid layout columns */
+
+	/* 2 columns */
+	.single-album .layout-fluid .bricks-columns-6 .grid-master,
+	.single-album .layout-fluid .bricks-columns-6 .archive-item,
+	.single-album .layout-fluid .bricks-columns-6 .archive-item.w2,
+	.single-album .layout-fluid .bricks-columns-6 .archive-item.w3,
+	.single-album .layout-fluid .bricks-columns-6 .archive-item.w4,
+	.single-album .layout-fluid .bricks-columns-5 .grid-master,
+	.single-album .layout-fluid .bricks-columns-5 .archive-item,
+	.single-album .layout-fluid .bricks-columns-5 .archive-item.w2,
+	.single-album .layout-fluid .bricks-columns-5 .archive-item.w3,
+	.single-album .layout-fluid .bricks-columns-4 .grid-master,
+	.single-album .layout-fluid .bricks-columns-4 .archive-item,
+	.single-album .layout-fluid .bricks-columns-4 .archive-item.w2,
+	.single-album .layout-fluid .bricks-columns-3 .grid-master,
+	.single-album .layout-fluid .bricks-columns-3 .archive-item{
+		width: -webkit-calc(50% - 10px);
+		width:         calc(50% - 10px);
+	}
+	/* 6 and 5 done already on bigger limits */
+	.single-album .layout-fluid .bricks-columns-4 .archive-item.w3,
+	.single-album .layout-fluid .bricks-columns-3 .archive-item.w2{
+		width: -webkit-calc(100% - 10px);
+		width:         calc(100% - 10px);
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	#only-album-items-here{
+		margin-right: 0;
+	}
+	html[dir=\"rtl\"] #only-album-items-here{
+        margin-left: 0;
+    }
+
+	/* all layouts */
+
+	/* 1 column */
+	.single-album #mid .bricks-columns-6 .grid-master,
+	.single-album #mid .bricks-columns-6 .archive-item,
+	.single-album #mid .bricks-columns-6 .archive-item.w2,
+	.single-album #mid .bricks-columns-6 .archive-item.w3,
+	.single-album #mid .bricks-columns-6 .archive-item.w4,
+	.single-album #mid .bricks-columns-6 .archive-item.w5,
+	.single-album #mid .bricks-columns-6 .archive-item.w6,
+	.single-album #mid .bricks-columns-5 .grid-master,
+	.single-album #mid .bricks-columns-5 .archive-item,
+	.single-album #mid .bricks-columns-5 .archive-item.w2,
+	.single-album #mid .bricks-columns-5 .archive-item.w3,
+	.single-album #mid .bricks-columns-5 .archive-item.w4,
+	.single-album #mid .bricks-columns-5 .archive-item.w5,
+	.single-album #mid .bricks-columns-4 .grid-master,
+	.single-album #mid .bricks-columns-4 .archive-item,
+	.single-album #mid .bricks-columns-4 .archive-item.w2,
+	.single-album #mid .bricks-columns-4 .archive-item.w3,
+	.single-album #mid .bricks-columns-4 .archive-item.w4,
+	.single-album #mid .bricks-columns-3 .grid-master,
+	.single-album #mid .bricks-columns-3 .archive-item,
+	.single-album #mid .bricks-columns-3 .archive-item.w2,
+	.single-album #mid .bricks-columns-3 .archive-item.w3,
+	.single-album #mid .bricks-columns-2 .grid-master,
+	.single-album #mid .bricks-columns-2 .archive-item,
+	.single-album #mid .bricks-columns-2 .archive-item.w2,
+	.single-album #mid .bricks-columns-1 .grid-master,
+	.single-album #mid .bricks-columns-1 .archive-item{
+		width: 100%;
+	}
+}
+
+</style>
+<link rel="stylesheet" id="redux-google-fonts-apollo13_option_rife-css" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro%7CSource+Sans+Pro%3A200%2C300%2C400%2C600%2C700&subset=latin&ver=1570848542" type="text/css" media="all">
+<script type="text/javascript" src="https://baipai.github.io/testtwo/wp-includes/js/jquery/jquery.js"></script>
+<script type="text/javascript" src="https://baipai.github.io/testtwo/wp-includes/js/jquery/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="https://baipai.github.io/testtwo/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="https://baipai.github.io/testtwo/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="https://baipai.github.io/testtwo/wp-content/themes/rife/js/modernizr.custom.js"></script>
+<script type="text/javascript">
+var mejsL10n = {"language":"en","strings":{"mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"Turn off Fullscreen","mejs.fullscreen-on":"Go Fullscreen","mejs.download-video":"Download Video","mejs.fullscreen":"Fullscreen","mejs.time-jump-forward":["Jump forward 1 second","Jump forward %1 seconds"],"mejs.loop":"Toggle Loop","mejs.play":"Play","mejs.pause":"Pause","mejs.close":"Close","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.time-skip-back":["Skip back 1 second","Skip back %1 seconds"],"mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.mute-toggle":"Mute Toggle","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.ad-skip":"Skip ad","mejs.ad-skip-info":["Skip in 1 second","Skip in %1 seconds"],"mejs.source-chooser":"Source Chooser","mejs.stop":"Stop","mejs.speed-rate":"Speed Rate","mejs.live-broadcast":"Live Broadcast","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script type="text/javascript" src="https://baipai.github.io/testtwo/wp-includes/js/mediaelement/mediaelement-and-player.min.js"></script>
+<script type="text/javascript" src="https://baipai.github.io/testtwo/wp-includes/js/mediaelement/mediaelement-migrate.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wordpress\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<link rel="icon" href="https://baipai.github.io/testtwo/wp-content/uploads/2017/10/cropped-cropped-site-01-1-32x32.png" sizes="32x32">
+<link rel="icon" href="https://baipai.github.io/testtwo/wp-content/uploads/2017/10/cropped-cropped-site-01-1-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon-precomposed" href="https://baipai.github.io/testtwo/wp-content/uploads/2017/10/cropped-cropped-site-01-1-180x180.png">
+<meta name="msapplication-TileImage" content="https://baipai.github.io/testtwo/wp-content/uploads/2017/10/cropped-cropped-site-01-1-270x270.png">
+<script type="text/javascript">function setREVStartSize(e){
+				try{ var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;					
+					if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+				}catch(d){console.log("Failure at Presize of Slider:"+d)}
+			};</script>
+<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+
+<body id="top" class="album-template-default single single-album postid-10352 side-menu-eff-7 header-horizontal site-layout-full single-album-bricks wpb-js-composer js-comp-ver-5.2.1 vc_responsive">
+<div class="whole-layout">
+<div id="preloader" class="onReady">
+    <div class="preload-content">
+        <div class="preloader-animation">				<div class="pace-progress"><div class="pace-progress-inner"></div></div>
+		        <div class="pace-activity"></div>
+				</div>
+        <a class="skip-preloader icon-cross" href="#"></a>
+    </div>
+</div>
+                <div class="page-background to-move"></div>
+        <header id="header" class="to-move horizontal header-type-one_line a13-normal-variant header-variant-one_line full tools-icons-2 default-sticky">
+		<div class="head">
+		
+		<div class="logo-container"><a class="logo image-logo normal-logo" href="https://baipai.github.io/testtwo/" title="Photo – Bai" rel="home"><img src="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/0918-05.png" alt="Photo – Bai"></a><a class="logo image-logo dark-logo hidden-logo" href="https://baipai.github.io/testtwo/" title="Photo – Bai" rel="home"><img src="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/0919-01-01.svg" alt="Photo – Bai"></a></div>
+		<nav id="access" class="navigation-bar">
+							<div class="menu-container"><ul id="menu-main-menu" class="top-menu opener-icons-on"><li id="menu-item-10282" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-parent-item menu-item-10282 normal-menu"><a href="https://baipai.github.io/testtwo/photo/"><span>Photo</span></a><i class="fa sub-mark fa-angle-down"></i>
+<ul class="sub-menu">
+	<li id="menu-item-10377" class="menu-item menu-item-type-taxonomy menu-item-object-genre menu-item-10377"><a href="https://baipai.github.io/testtwo/genre/architecture/"><span>Architecture</span></a></li>
+	<li id="menu-item-10378" class="menu-item menu-item-type-taxonomy menu-item-object-genre menu-item-10378"><a href="https://baipai.github.io/testtwo/genre/indoor/"><span>Indoor</span></a></li>
+	<li id="menu-item-10379" class="menu-item menu-item-type-taxonomy menu-item-object-genre menu-item-10379"><a href="https://baipai.github.io/testtwo/genre/open-space/"><span>Open space</span></a></li>
+	<li id="menu-item-10380" class="menu-item menu-item-type-taxonomy menu-item-object-genre current-album-ancestor current-menu-parent current-album-parent menu-item-10380"><a href="https://baipai.github.io/testtwo/genre/project/"><span>Project</span></a></li>
+	<li id="menu-item-10376" class="menu-item menu-item-type-taxonomy menu-item-object-genre menu-item-10376"><a href="https://baipai.github.io/testtwo/genre/beyond/"><span>Beyond</span></a></li>
+</ul>
+</li>
+<li id="menu-item-10669" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10669 normal-menu"><a href="https://baipai.github.io/testtwo/about/"><span>About</span></a></li>
+</ul></div>					</nav>
+		
+		
+				<div id="header-tools" class=" icons-2"><div id="mobile-menu-opener" class="icon-menu tool" title="Main menu"></div><div id="search-button" class="icon-search tool" title="Search"></div><div id="side-menu-switch" class="fa fa-bookmark tool" title="Hidden sidebar"></div></div>		
+			</div>
+	<div class="search-container"><div class="search"><span class="icon-search"></span>
+                <form class="search-form" role="search" method="get" action="https://baipai.github.io/testtwo/">
+                    <fieldset class="semantic">
+                        <input placeholder="Search …" type="search" name="s" id="s1" data-swplive="true" value="">
+                        <em class="icon-search"></em>
+                        <input type="submit" id="searchsubmit1" title="Search" value="Search">
+                        
+                        
+                    </fieldset>
+                </form><span class="icon-cross close"></span></div><div id="search-results-header"></div></div></header>
+    <div id="mid" class="to-move layout-full layout-no-edge layout-fluid no-sidebars">	<article id="content" class="clearfix">
+        <div class="content-limiter">
+            <div id="col-mask">
+                <div class="content-box">
+	                	                <div class="bricks-frame variant-overlay bricks-columns-3 album-content-on album-content-on-the-right title-top title-left hover-effect-none cover-hover texts-no-hover texts-hover">
+		                			            <div class="album-content">
+				            <div class="inside">
+					            <div class="albums-nav"><a href="https://baipai.github.io/testtwo/genre/project/" title="Back to Project" class="to-cpt-list fa fa-th"></a></div><div class="album-categories"><a href="https://baipai.github.io/testtwo/genre/project/">Project</a></div><h2 class="post-title">My Little Space</h2>				                <div class="real-content">
+				                    				                </div>
+				            </div>
+			            </div>
+		                							    <ul id="gallery-media-collection" class="screen-reader-text">
+				<li class="gallery-item type-image subtype-jpeg" data-id="10353" data-ratio_x="1" data-bg_color="" data-alt_attr="" data-main-image="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A5983.jpg" data-brick_image="https://baipai.github.io/testtwo/wp-content/uploads/apollo13_images/117A5983-6lnzba5tu4ihgm6b504p7gqh6ouaeoa33m.jpg" data-thumb="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A5983-600x600.jpg">
+		<a class="item__link" href="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A5983.jpg">117A5983</a>
+			</li>
+	<li class="gallery-item type-image subtype-jpeg" data-id="10360" data-ratio_x="1" data-bg_color="" data-alt_attr="" data-main-image="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6150.jpg" data-brick_image="https://baipai.github.io/testtwo/wp-content/uploads/apollo13_images/117A6150-6lnzbbr3tpk2wg1i6rel870hvxa301qrea.jpg" data-thumb="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6150-600x600.jpg">
+		<a class="item__link" href="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6150.jpg">117A6150</a>
+			</li>
+	<li class="gallery-item type-image subtype-jpeg" data-id="10355" data-ratio_x="1" data-bg_color="" data-alt_attr="" data-main-image="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6000.jpg" data-brick_image="https://baipai.github.io/testtwo/wp-content/uploads/apollo13_images/117A6000-6lnzbafdi20r195ibaocjl45aw8x68iv5e.jpg" data-thumb="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6000-600x600.jpg">
+		<a class="item__link" href="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6000.jpg">117A6000</a>
+			</li>
+	<li class="gallery-item type-image subtype-jpeg" data-id="10361" data-ratio_x="1" data-bg_color="" data-alt_attr="" data-main-image="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6153.jpg" data-brick_image="https://baipai.github.io/testtwo/wp-content/uploads/apollo13_images/117A6153-6lnzbc0nhn2ch30pd1y8kbe604oprlzjg2.jpg" data-thumb="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6153-600x600.jpg">
+		<a class="item__link" href="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6153.jpg">117A6153</a>
+			</li>
+	<li class="gallery-item type-image subtype-jpeg" data-id="10358" data-ratio_x="1" data-bg_color="" data-alt_attr="" data-main-image="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6039.jpg" data-brick_image="https://baipai.github.io/testtwo/wp-content/uploads/apollo13_images/117A6039-6lnzbb80hujjr633u6bajy95nigtgx97aq.jpg" data-thumb="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6039-600x600.jpg">
+		<a class="item__link" href="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6039.jpg">117A6039</a>
+			</li>
+	<li class="gallery-item type-image subtype-jpeg" data-id="10357" data-ratio_x="1" data-bg_color="" data-alt_attr="" data-main-image="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6021.jpg" data-brick_image="https://baipai.github.io/testtwo/wp-content/uploads/apollo13_images/117A6021-6lnzbaygtx1a6j3wnvrn7tvhjb26pd0f8y.jpg" data-thumb="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6021-600x600.jpg">
+		<a class="item__link" href="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6021.jpg">117A6021</a>
+			</li>
+	<li class="gallery-item type-image subtype-jpeg" data-id="10359" data-ratio_x="1" data-bg_color="" data-alt_attr="" data-main-image="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6044.jpg" data-brick_image="https://baipai.github.io/testtwo/wp-content/uploads/apollo13_images/117A6044-6lnzbbhk5s1tbt2b0guxw2mtrpvg8hhzci.jpg" data-thumb="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6044-600x600.jpg">
+		<a class="item__link" href="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6044.jpg">117A6044</a>
+			</li>
+	<li class="gallery-item type-image subtype-jpeg" data-id="10354" data-ratio_x="1" data-bg_color="" data-alt_attr="" data-main-image="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A5994.jpg" data-brick_image="https://baipai.github.io/testtwo/wp-content/uploads/apollo13_images/117A5994-6lnzbafdi20r195ibaocjl45aw8x68iv5e.jpg" data-thumb="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A5994-600x600.jpg">
+		<a class="item__link" href="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A5994.jpg">117A5994</a>
+			</li>
+	<li class="gallery-item type-image subtype-jpeg" data-id="10362" data-ratio_x="1" data-bg_color="" data-alt_attr="" data-main-image="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6158.jpg" data-brick_image="https://baipai.github.io/testtwo/wp-content/uploads/apollo13_images/117A6158-6lnzbca75kkm1pzwjchvwfru4c3cj68bhu.jpg" data-thumb="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6158-600x600.jpg">
+		<a class="item__link" href="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6158.jpg">117A6158</a>
+			</li>
+	<li class="gallery-item type-image subtype-jpeg" data-id="10356" data-ratio_x="1" data-bg_color="" data-alt_attr="" data-main-image="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6010.jpg" data-brick_image="https://baipai.github.io/testtwo/wp-content/uploads/apollo13_images/117A6010-6lnzbaox5zj0lw4phl7zvphtf3njxsrn76.jpg" data-thumb="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6010-600x600.jpg">
+		<a class="item__link" href="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6010.jpg">117A6010</a>
+			</li>
+		</ul>
+	    		                <div id="only-album-items-here" data-margin="10" data-desc="0" data-proofing="0" data-lightbox_off="0" data-cover-color="rgba(0,0,0, 0.7)">
+			                <div class="grid-master"></div>
+	                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+			</div>
+
+<footer id="footer" class="to-move classic narrow footer-separator">			<div class="foot-items">
+				<div class="foot-content clearfix">
+	                <div class="f-links"><div class="socials icons-only black color_hover"><a target="_blank" href="http://bai@paiyuhsuan.com" class="a13_soc-mailto fa fa-envelope-o"></a><a target="_blank" href="https://www.flickr.com/photos/baipaibai" class="a13_soc-flickr fa fa-flickr"></a><a target="_blank" href="https://www.instagram.com/baipaibai/" class="a13_soc-instagram fa fa-instagram"></a><a target="_blank" href="https://www.linkedin.com/in/baipai/" class="a13_soc-linkedin fa fa-linkedin"></a><a target="_blank" href="https://twitter.com/baipaibai" class="a13_soc-twitter fa fa-twitter"></a></div></div><div class="foot-text">2019 © <a href="http://paiyuhsuan.com">Bai Pai</a> </div>				</div>
+			</div>
+		</footer>		<nav id="side-menu" class="side-widget-menu light-sidebar at-right">
+			<div class="scroll-wrap">
+				<div id="nav_menu-10" class="widget widget_nav_menu"><h3 class="title"><span>All</span></h3><div class="menu-footer-01-container"><ul id="menu-footer-01" class="menu"><li id="menu-item-10616" class="menu-item menu-item-type-post_type menu-item-object-album menu-item-10616"><a href="https://baipai.github.io/testtwo/photo/building-construct/">Building & Construct</a></li>
+<li id="menu-item-10617" class="menu-item menu-item-type-post_type menu-item-object-album menu-item-10617"><a href="https://baipai.github.io/testtwo/photo/street-people/">Street & People</a></li>
+<li id="menu-item-10618" class="menu-item menu-item-type-post_type menu-item-object-album menu-item-10618"><a href="https://baipai.github.io/testtwo/photo/conversation/">Conversation</a></li>
+<li id="menu-item-10619" class="menu-item menu-item-type-post_type menu-item-object-album menu-item-10619"><a href="https://baipai.github.io/testtwo/photo/space/">Space</a></li>
+<li id="menu-item-10621" class="menu-item menu-item-type-post_type menu-item-object-album current-menu-item menu-item-10621"><a href="https://baipai.github.io/testtwo/photo/my-little-space/">My Little Space</a></li>
+<li id="menu-item-10622" class="menu-item menu-item-type-post_type menu-item-object-album menu-item-10622"><a href="https://baipai.github.io/testtwo/photo/water/">Water</a></li>
+<li id="menu-item-10623" class="menu-item menu-item-type-post_type menu-item-object-album menu-item-10623"><a href="https://baipai.github.io/testtwo/photo/red/">Red</a></li>
+<li id="menu-item-10624" class="menu-item menu-item-type-post_type menu-item-object-album menu-item-10624"><a href="https://baipai.github.io/testtwo/photo/animal/">Animal</a></li>
+</ul></div></div>			</div>
+			<span class="icon-cross close-sidebar"></span>
+		</nav>
+				<a href="#top" id="to-top" class="to-top fa fa-angle-up"></a>
+		<div id="content-overlay" class="to-move"></div>
+		
+	</div>
+<script type="text/javascript">
+/* <![CDATA[ */
+var searchwp_live_search_params = [];
+searchwp_live_search_params = {"ajaxurl":"https:\/\/baipai.github.io\/testtwo\/wp-admin\/admin-ajax.php","config":{"default":{"engine":"default","input":{"delay":500,"min_chars":3},"results":{"position":"bottom","width":"css","offset":{"x":0,"y":0}},"spinner":{"lines":10,"length":8,"width":4,"radius":8,"corners":1,"rotate":0,"direction":1,"color":"#000","speed":1,"trail":60,"shadow":false,"hwaccel":false,"className":"spinner","zIndex":2000000000,"top":"50%","left":"50%"},"results_destroy_on_blur":false,"parent_el":"#search-results-header"}},"msg_no_config_found":"No valid SearchWP Live Search configuration found!"};;
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://baipai.github.io/testtwo/wp-content/plugins/searchwp-live-ajax-search/assets/javascript/build/searchwp-live-search.min.js"></script>
+<script type="text/javascript" src="https://baipai.github.io/testtwo/wp-content/themes/rife/js/fitText.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var ApolloParams = {"ajaxurl":"https:\/\/baipai.github.io\/testtwo\/wp-admin\/admin-ajax.php","site_url":"https:\/\/baipai.github.io\/testtwo\/","defimgurl":"https:\/\/baipai.github.io\/testtwo\/wp-content\/themes\/rife\/images\/holders\/photo.png","load_more":"Load more","loading_items":"Loading next items","anchors_in_bar":"","hide_content_under_header":"off","default_header_variant":"normal","header_sticky_top_bar":"","show_header_at":"","header_normal_social_colors":"color|black_hover|color|color_hover","header_light_social_colors":"semi-transparent|color_hover|color|color_hover","header_dark_social_colors":"semi-transparent|color_hover|color|color_hover","header_sticky_social_colors":"semi-transparent|color_hover|color|color_hover","close_mobile_menu_on_click":"","allow_mobile_menu":"1","submenu_opener":"fa-angle-down","submenu_closer":"fa-angle-up","submenu_third_lvl_opener":"fa-angle-right","submenu_third_lvl_closer":"fa-angle-left","posts_brick_margin":"35","posts_layout_mode":"packery","products_brick_margin":"0","products_layout_mode":"packery","albums_list_brick_margin":"11","albums_list_layout_mode":"packery","album_bricks_thumb_video":"","works_list_brick_margin":"0","works_list_layout_mode":"packery","work_bricks_thumb_video":"","lg_lightbox_share":"1","lg_lightbox_controls":"1","lg_lightbox_download":"","lg_lightbox_counter":"1","lg_lightbox_thumbnail":"1","lg_lightbox_show_thumbs":"","lg_lightbox_autoplay":"1","lg_lightbox_autoplay_open":"","lg_lightbox_progressbar":"1","lg_lightbox_full_screen":"1","lg_lightbox_zoom":"1","lg_lightbox_mode":"lg-slide","lg_lightbox_speed":"600","lg_lightbox_preload":"1","lg_lightbox_hide_delay":"2000","lg_lightbox_autoplay_pause":"5000"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://baipai.github.io/testtwo/wp-content/themes/rife/js/source.js"></script>
+<script type="text/javascript" src="https://baipai.github.io/testtwo/wp-content/themes/rife/js/TweenMax.min.js"></script>
+<script type="text/javascript" src="https://baipai.github.io/testtwo/wp-content/themes/rife/js/jquery.countdown.min.js"></script>
+<script type="text/javascript" src="https://baipai.github.io/testtwo/wp-content/themes/rife/js/isotope.pkgd.min.js"></script>
+<script type="text/javascript" src="https://baipai.github.io/testtwo/wp-content/themes/rife/js/light-gallery/js/lightgallery-all.min.js"></script>
+<script type="text/javascript" src="https://baipai.github.io/testtwo/wp-content/themes/rife/js/script.js"></script>
+</body>
+</html>
