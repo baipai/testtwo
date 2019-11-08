@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Project &#8211; Photo &#8211; Bai</title>
+	<atom:link href="http://localhost/wordpress/genre/project/feed/" rel="self" type="application/rss+xml" />
+	<link>https://baipai.github.io/testtwo</link>
+	<description>Bai Pai&#039;s Photography</description>
+	<lastBuildDate>Fri, 22 Sep 2017 11:27:37 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.4</generator>
+
+<image>
+	<url>https://baipai.github.io/testtwo/wp-content/uploads/2017/10/cropped-cropped-site-01-1-32x32.png</url>
+	<title>Project &#8211; Photo &#8211; Bai</title>
+	<link>https://baipai.github.io/testtwo</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>My Little Space</title>
+		<link>https://baipai.github.io/testtwo/photo/my-little-space/</link>
+				<pubDate>Thu, 14 Sep 2017 10:16:26 +0000</pubDate>
+		<dc:creator><![CDATA[photobai]]></dc:creator>
+		
+		<guid isPermaLink="false">https://baipai.github.io/testtwo/?post_type=album&#038;p=10352</guid>
+				<description><![CDATA[<p><img width="800" height="534" src="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6039-800x534.jpg" class="attachment-medium size-medium wp-post-image" alt="" srcset="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6039-800x534.jpg 800w, https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6039-768x512.jpg 768w, https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6039.jpg 1000w" sizes="(max-width: 800px) 100vw, 800px" /></p>]]></description>
+								<content:encoded><![CDATA[<p><img width="800" height="534" src="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6039-800x534.jpg" class="attachment-medium size-medium wp-post-image" alt="" srcset="https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6039-800x534.jpg 800w, https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6039-768x512.jpg 768w, https://baipai.github.io/testtwo/wp-content/uploads/2017/09/117A6039.jpg 1000w" sizes="(max-width: 800px) 100vw, 800px" /></p>]]></content:encoded>
+										</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+ Served from: localhost @ 2019-11-08 02:54:22 by W3 Total Cache -->
