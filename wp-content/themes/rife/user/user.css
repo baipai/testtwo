@@ -2087,7 +2087,7 @@ html[dir="rtl"] .content-box ul.products{
    CONTENT
    ==================*/
 #content{
-    font-size: 14px;
+    font-size: 15px;
     color: rgba(85,85,85,1);
 }
 .real-content > p:first-child{
@@ -2095,10 +2095,10 @@ html[dir="rtl"] .content-box ul.products{
     color: rgba(88,88,88,1);
 }
 .page-title{
-    font-size: 57px;
+    font-size: 30px;
 }
 .widget h3.title {
-    font-size: 13px;
+    font-size: 15px;
 }
 
 
